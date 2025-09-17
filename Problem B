@@ -8,11 +8,8 @@ using namespace std;
 
 void Solve()
 {
-    int a, n; cin >> a >> n;
-    if (a * (n / a) == (a * n) / a)
-        cout << "Yes" << endl;
-    else
-        cout << "No" << endl;
+    int a, b, c; cin >> a >> b >> c;
+    cout << a + (b - c) << endl;
 }
 
 int32_t main()
@@ -27,7 +24,7 @@ int32_t main()
 #endif
 
     int t = 1;
-    cin >> t;
+    // cin >> t;
     while (t--)
         Solve();
 
